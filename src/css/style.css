@@ -5,27 +5,28 @@ body{
     background: url("../image/bg-desktop.svg")center center no-repeat;
     background-size: cover;
     background-color: var(--background-color);
-}
-/*WRAPPER*/
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    padding: 60px 40px 45px 80px;
-    height:100vh;
+    background-position-x: -90px;
+    background-position-y: -15px;
 }
 /*HEADER*/
 .header{
     width: 200px;
     height: 32px;
-    margin-bottom: 55px;
+    margin: 59px 0px 104px 80px;
 }
 /*HERO*/
 .hero{
     display: flex;
+    margin-left: 80px;
+    flex-wrap: fles-wrap;
 }
 .hero .mockup{
+    max-width: 696px;
+    height: 493px;
     margin-right: 60px;
-    width: 2200px;
+}
+.hero .presentation-text{
+    margin-right:85px;
 }
 .hero .presentation-text h1{
     margin-top: 32px;
@@ -62,7 +63,7 @@ body{
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
-    margin-bottom: 45px;
+    margin: 27px 80px 45px;
 }
 .footer .circle a{
     display: flex;
