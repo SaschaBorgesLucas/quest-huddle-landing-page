@@ -11,7 +11,7 @@ Os botões têm que mudar de cor quando eu passo o mouse por cima deles, o códi
   <li><b>Commit (main 13/06/2023):</b> primeira parte esta pronta, mas não estou satisfeito com algumas proporções; 
   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O outro commit de hoje foi só para adicionar o <b><i>Read me<i><b>;</li>
-  <li><b>Commit (main 14/06/2023):</b> implementado a responsividade e inicio da refatoração; 
-  <li><b>Commit (main 14/06/2023)+:</b> próximo passo: refatoração dos nomes de classes e váriaveis; 
+  <li><b>Commit (main 14/06/2023):</b> implementado a responsividade e inicio da refatoração;</li>
+  <li><b>Commit (main 14/06/2023)+:</b> próximo passo, refatoração dos nomes de classes e váriaveis, o pla no de fundo ainda não está ajustado 100%;</li> 
 </ul>
 
