@@ -2,65 +2,65 @@ html{
     font-size: 62.5%;
 }
 body{
-    background: url("../image/bg-desktop.svg")center center no-repeat;
-    background-size: cover;
-    background-color: var(--background-color);
-    background-position-x: -90px;
-    background-position-y: -15px;
     height: 100vh;
+    max-width: 1440px;
+    background: url("../image/bg-desktop.svg") no-repeat;
+    background-size:cover;
+    background-color: var(--primary-color);
+   
 }
-
-/*HEADER*/
 .header{
-   margin: 59px 80px 0px;
+    margin: 59px 0px 104px 80px;
 }
 .header img{
-    height: auto;
+    max-width: 200px;
 }
-/*HERO*/
 .hero{
+    margin: 0px 85px 27px 80px;
     display: flex;
-    margin: 104px 80px 27px 80px; 
+    flex-direction: row;
 }
 .hero .mockup{
+    margin-right: 60px; 
     max-width: 696px;
-    max-height: 493px;
-    margin-right: 60px;
 }
 .hero .presentation-text{
-    margin-right:85px;
+    max-width: 520px;
+    margin-top:32px;
 }
 .hero .presentation-text h1{
-    margin-top: 32px;
     font-family: 'Poppins';
-    color: var(--text-font-color);
     font-weight: 600;
     font-size: 4rem;
-    margin-bottom: 24px;
+    line-height:150%;
+    color: var(--secondary-color);
 }
 .hero .presentation-text p{
+    margin-top: 24px;
     font-family: 'Open Sans';
-    color: var(--text-font-color);
     font-weight: 400;
     font-size: 1.8rem;
-    margin-bottom: 24px;
+    line-height: 150%;
+    color: var(--secondary-color);
 }
 .hero .presentation-text .btn-register{
-    background-color: var(--text-font-color);
+    margin-top: 24px;
+}
+.hero .presentation-text .btn-register a{
+    background-color: var(--secondary-color);
     font-family: 'Poppins';
-    color: var(--backgriund-color);
+    color: var(--primary-color);
     font-weight: 400;
     font-size: 1.8rem;
     padding: 13px 63px;
     border-radius: 50px;
-    transition: 0.5s ease-in-out;
+    transition: var(--transition-time) ease-in-out;
     line-height: 50px;
 }
-.hero .presentation-text .btn-register:hover{
-    background-color: var(--btn-register-hover-color);
-    color: var(--text-font-color);
+.hero .presentation-text .btn-register:hover a{
+    background-color: var(--primary-btn-hover-color);
+    color: var(--secondary-color);
 }
-/*FOOTER*/
 .footer{
     display: flex;
     justify-content: flex-end;
@@ -73,17 +73,15 @@ body{
     justify-content: center;
     width: 40px;
     height: 40px;
-    border: 1px solid var(--text-font-color);
+    border: 1px solid var(--secondary-color);
     border-radius: 100%;
     font-size: 1.8rem;
     margin: 0px 16px;
-    color: var(--text-font-color); 
-    transition: 0.5s ease-in-out;   
+    color: var(--secondary-color); 
+    transition: var(--transition-time) ease-in-out;   
 }
 .footer .circle a:hover{
-    color: var(--social-media-btn-hover-color);
-    border-color:  var(--social-media-btn-hover-color);
+    color: var(--secondary-btn-hover-color);
+    border-color: var(--secondary-btn-hover-color);
 }
-
-
 
