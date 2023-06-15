@@ -1,0 +1,49 @@
+@media(max-width:450px){
+    body{
+        max-width: 375px;
+        background: url("../image/bg-mobile.svg")top center no-repeat;
+        background-size: 100vw;
+        background-color: var(--primary-color);
+    }
+    .header{
+        margin: 38px 0px 70px 40px;
+    }
+    .header img{
+        max-width: 120px;
+    }
+    .hero{
+        margin: 0px 40px 64px 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero .mockup{
+        margin-right: 0px; 
+        max-width: 296px;
+    }
+    .hero .presentation-text{
+        max-width: 304px;
+        margin-top: 60px;
+        text-align: center;
+    }
+    .hero .presentation-text h1{
+        font-weight: 600;
+        font-size: 2.4rem;
+        line-height: 150%;
+    }
+    .hero .presentation-text p{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 150%;
+        margin-top: 16px;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 0px 0px 40px 0px;
+    }
+    .footer .circle a{
+        margin: 0px 10px;
+    }
+}
