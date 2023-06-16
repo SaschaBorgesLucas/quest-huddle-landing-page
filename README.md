@@ -9,7 +9,7 @@ Os botões têm que mudar de cor quando eu passo o mouse por cima deles, o códi
 <h2>Variáveis</h2>
 <p>No commit do dia 15/06/2023 foi criado um padrão nas váriáveis para ajudar na manutenção da página e modificações mais simples nas cores conforme o diagrama abaixo.</p>
 <img src="https://github.com/SaschaBorgesLucas/quest-huddle-landing-page/assets/35588147/b3bbf55c-667f-4e10-9357-7cd92ff265f9" width="600">
-<h3>Variáveis</h3>
+<h3>Descrição das variáveis</h3>
 <ul>
   <li><b>primary-color:</b> Cor mais abundante na página, geralmente a cor de fundo.</li>
   <li><b>secondary-color:</b> Cor dos textos e elementos que devem ser bem visiveis, ela deve se destacar perante a cor da variável anterior.</li>
