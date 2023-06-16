@@ -28,6 +28,7 @@ Os botões têm que mudar de cor quando eu passo o mouse por cima deles, o códi
   <li><s><b>Commit (main 14/06/2023)+:</b> próximo passo, refatoração dos nomes de classes e váriaveis, o plano de fundo ainda não está ajustado 100%;</s></li>
   <li><b>Commit (main 15/06/2023):</b> trocado o nome de algumas variáveis e mais alguns ajustes de refatoração. Pro fim, o projeto foi colocado no git hub pages  para apreciação: https://saschaborgeslucas.github.io/quest-huddle-landing-page/ </b></li>
 </ul>
-
+  <li><b>Commit (main 15/06/2023 - 4):</b> não gostei de como a o site ficava na resolução 1024 então trabalhei nela.</b></li>
+</ul>
 
 
