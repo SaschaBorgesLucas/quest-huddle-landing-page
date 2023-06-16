@@ -65,7 +65,7 @@ body{
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
-    margin: 27px 80px 45px;
+    margin: 27px 80px 45px 0px;
 }
 .footer .circle a{
     display: flex;
